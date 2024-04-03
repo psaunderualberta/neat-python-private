@@ -154,3 +154,7 @@ class StdOutReporter(BaseReporter):
 
     def info(self, msg):
         print(msg)
+
+# TODO: Write a FileReporter class that writes to a file instead of stdout.
+class FileReporter(BaseReporter):
+    pass
